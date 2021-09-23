@@ -1,0 +1,43 @@
+.crd {
+    margin: 20px;
+    height: 360px;
+    .btn-block {
+        position: absolute;
+        left: 5%;
+        bottom: 60px;
+        width: 90% !important;
+    }
+}
+
+.cardAddon {
+    height: 28px;
+    width: 70px;
+}
+
+.cardImage {
+    height: 24px;
+    width: 24px;
+}
+
+.cardSwitch {
+    margin-top: 20px;
+}
+
+
+
+.container {
+    top: 56px;
+    margin: 50px;
+}
+
+
+
+@media (max-width: 768px) {
+    .crd {
+        height: auto;
+        .btn-block {
+            position: static;
+            width: 100% !important;
+        }
+    }
+}
